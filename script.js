@@ -46,4 +46,5 @@ async function checkWeather(city){
 }
 searchBtn.addEventListener("click", ()=>{
     checkWeather(searchBox.value);
+    document.querySelector(".card").style.margin = "50px auto 50px"; 
 });
